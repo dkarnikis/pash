@@ -8,7 +8,7 @@ This shift brings many benefits, allowing PaSh to correctly handle expansion and
 A high-level diagram of PaSh's end-to-end operation is shown below:
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSIuacgBR_QFOzawoAdJMmTjgsdnDUkp1DbSjLVlrowlhL6kxqckXXsL7SPoRXKfaC1hw9HQzJitmDP/pub?w=1364&amp;h=454">
-
+s
 PaSh pre-processes a sequential script to insert calls to the `pash_runtime.py`.
 It then invokes the script, switching between evaluation, execution, and parallelization at runtime:
 (i) it first parses the script, creating an abstact syntax tree (AST); 
